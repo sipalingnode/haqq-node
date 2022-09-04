@@ -45,6 +45,7 @@ rm -rf $HOME/root
 wget -O $HOME/.haqqd/config/addrbook.json "https://raw.githubusercontent.com/StakeTake/guidecosmos/main/haqq/haqq_53211-1/addrbook.json" 
 sudo systemctl restart haqqd && journalctl -u haqqd -f -o cat
 ```
+**Jika sudah jalan langsung CTRL+C aja bang**
 
 ## Import wallet yang sudah dibuat
 
